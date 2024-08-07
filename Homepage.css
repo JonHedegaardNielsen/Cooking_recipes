@@ -1,0 +1,13 @@
+#recipeLinkBox{
+    background-color: antiquewhite;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50px;
+    outline: 50px;
+    vertical-align: top;
+    border: 2px solid black;
+    display: grid;
+    height: auto;
+}
+
