@@ -9,19 +9,40 @@ body{
     border: 2px solid black;
     display: grid;
     padding-left: 20px;
+    padding-right: 20px;
     padding-top: 10px;
     background-color: white;
     height: auto;
+    border-radius: 5px;
 }
 
 #recipeInputBoxContent{
     max-width: 700px;
     max-height: auto;
-    resize: vertical;
+    /* resize: vertical; */
     height: 700px;
+    margin-bottom: 30px;
+    font-size: 18px;
 }
 
 #recipeInputBoxName{
     max-width: 700px;
     resize: vertical;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.recipeInputBoxTitle{
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 10px;
+}
+
+#AddRecipe{
+    margin-bottom: 30px;
+    height: 35px;
+    width: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: larger;
 }

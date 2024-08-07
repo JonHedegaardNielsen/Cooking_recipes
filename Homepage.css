@@ -11,3 +11,39 @@
     height: auto;
 }
 
+#recipeLinksTopBar input{
+    height: inherit;
+    vertical-align: top;
+    width: 700px;
+}
+
+#recipeLinksTopBar button{
+    vertical-align: top;
+    height: inherit;
+}
+
+#search{
+    font-size: 20px;
+    width: 75px;
+}
+
+#AddRecipe{
+    top: 0;
+    right: 0;
+    font-size: xx-large;
+    width: 50px;
+}
+
+#recipeLinksTopBar{
+ height: 50px;
+}
+
+.recipeLink{
+    outline: 1px solid black;
+    height: 40px;
+}
+
+.recipeLink a{
+    font-size: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

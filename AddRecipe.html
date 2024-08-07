@@ -7,13 +7,13 @@
 </head>
 <body>
     <div id="addRecipeBox">
-        <label for="name">Recipe name</label>
-        <input id="recipeInputBoxName" size="64" type="text">
+        <label class="recipeInputBoxTitle" for="name">Recipe name</label>
+        <input maxlength="64"  id="recipeInputBoxName"  type="text">
         
-        <label for="content">Content</label>
-        <textarea  cols="15" maxlength="2048" id="recipeInputBoxContent" size="1" id="" name="content"></textarea>
+        <label class="recipeInputBoxTitle" for="content">Content</label>
+        <textarea  cols="15" maxlength="2048" id="recipeInputBoxContent" size="1"si name="content"></textarea>
         
-        <button id="submitRecipe"></button>
+        <button  id="AddRecipe">Submit</button>
     </div>
 
     <script src="AddRecipe.js"></script>
